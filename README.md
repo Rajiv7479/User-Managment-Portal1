@@ -21,12 +21,21 @@
        # Request : GET /users/:id
        To show all the Available Details of a specific user GET /users/id request is executed 
        and it will render all the available details from database and show them on screen.
-       ( I used findById() method to find a user from database using id )
+      
+      ( I used findById() method to find a user from database using id )
  
  ## 4. Delete a specific User 
        # Request : DELETE /users/:id
+        when a POST /users/id/?_method=DELETE  request is sent , server find the user and delete
+        user details from database.
+        
+        ( I used findByIdAndDelete() method to find the user from database and delete it )
+       
  
  ## 5. Update/Edit the details of a user
        # Request : PUT /users/:id
+       To Update the Details of a user a GET /users/id/edit request is sent it will redirect to a 
+       form where you can enter your new details and then a POST users/id?_method=PUT request is sent ,
+       which will update the details of the user in database.
  
  # Dependencies
