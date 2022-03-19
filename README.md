@@ -49,5 +49,7 @@
        To Update the Details of a user a GET /users/id/edit request is sent it will redirect
        to a form where you can enter your new details and then a POST users/id?_method=PUT 
        request is sent , which will update the details of the user in database.
+       
+       ( I used findByIdAndUpdate() method to find the user from database and Update the details )
  
 
