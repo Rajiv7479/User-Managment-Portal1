@@ -8,7 +8,7 @@
 ## DEPENDENCIES
     Mongoose : required to connect to the mongoDB database and perform different operations.
     dotenv   : This allow us to declare a variable in .env file and use that variable from
-                any other file in the project. (to access the variable we use : process.env.variable)
+            any other file in the project. (to access the variable we use : process.env.variable)
     ejs-mate : This allow us to create a layout of reusable code to reduce duplicating code.
 
 
