@@ -1,6 +1,5 @@
 # User-Managment-Portal1
-    Heroku link : https://sri-user-management.herokuapp.com/users
-
+    
 ## DATABASE
        MongoDB
 ## BACKEND FRAMEWORK
